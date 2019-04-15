@@ -33,7 +33,7 @@ public class loading_screen_tv extends AppCompatActivity {
                 }
                 finally
                 {
-                    Intent i = new Intent(loading_screen.this, Add_Cam.class);
+                    Intent i = new Intent(loading_screen.this, AddCam.class);
                     startActivity(i);
                     finish();
                 }
@@ -52,7 +52,7 @@ public class loading_screen_tv extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(loading_screen_tv.this, Add_Cam.class);
+                Intent i = new Intent(loading_screen_tv.this, AddCam.class);
                 startActivity(i);
 
                 // close this activity

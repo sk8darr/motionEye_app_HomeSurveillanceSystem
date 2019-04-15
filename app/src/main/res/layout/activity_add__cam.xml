@@ -7,7 +7,7 @@
     android:animateLayoutChanges="true"
     android:background="@color/motioneye_grey"
     android:fitsSystemWindows="true"
-    tools:context=".Add_Cam"
+    tools:context=".AddCam"
     tools:ignore="ContentDescription"
     android:contentDescription="@string/constraintlayout_for_list_ad_and_etc"
     android:labelFor="@+id/device_list">

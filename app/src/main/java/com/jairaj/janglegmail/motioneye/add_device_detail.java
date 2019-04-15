@@ -70,7 +70,7 @@ public class add_device_detail extends AppCompatActivity
             getWindow().getDecorView().setImportantForAutofill(View.IMPORTANT_FOR_AUTOFILL_NO_EXCLUDE_DESCENDANTS);
         }
 
-        final Intent previousScreen = new Intent(getApplicationContext(), Add_Cam.class);
+        final Intent previousScreen = new Intent(getApplicationContext(), AddCam.class);
         previousScreen.putExtra("Code",0);
 
         //display_ad();
@@ -113,7 +113,7 @@ public class add_device_detail extends AppCompatActivity
                 Toast.makeText(getBaseContext(), R.string.cancelled_toast,
                         Toast.LENGTH_SHORT).show();
 
-                Intent previousScreen = new Intent(getApplicationContext(), Add_Cam.class);
+                Intent previousScreen = new Intent(getApplicationContext(), AddCam.class);
                 previousScreen.putExtra("Code",0);
 
                 edit_mode = "2";

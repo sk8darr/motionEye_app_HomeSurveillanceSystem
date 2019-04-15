@@ -19,7 +19,7 @@
         android:banner="@drawable/motion_eye_banner">
 
         <activity
-            android:name=".Add_Cam"
+            android:name=".AddCam"
             android:label="Camera List"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
